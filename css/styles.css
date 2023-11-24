@@ -70,14 +70,14 @@ address{
     color:#FFF;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
 }
 
-.main-title-button:hover
+.main-title-button:hover,
 .main-title-button:focus {
     background-color: #404BBF; 
 }
@@ -89,7 +89,7 @@ address{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .principles-section .principles-content {
@@ -142,7 +142,7 @@ address{
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.4px;   
 }
 .portfolio-item-type {
