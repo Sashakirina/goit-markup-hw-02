@@ -1,7 +1,8 @@
 body {
-        font-family: Roboto;
+        font-family: Roboto, sans-serif;
         font-style: normal;
         text-decoration: none;
+        color: #434455;
 }
 a {
     text-decoration: none;
@@ -15,7 +16,7 @@ ul {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.16667;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -26,7 +27,7 @@ ul {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .page-links-list .page-links-item:hover {
@@ -36,13 +37,14 @@ ul {
 .contacts .contacts-list .contacts-email, .contacts-tel{
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
 .contacts .contacts-list .contacts-email:hover,
- .contacts-tel:hover {
+ .contacts-tel:hover,
+ .contacts .contacts-list .contacts-email:focus,
+ .contacts-tel:focus {
     color:#404BBF;
 }
 
@@ -55,7 +57,7 @@ ul {
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07143;
     letter-spacing: 1.12px;
 }
 
@@ -63,11 +65,12 @@ ul {
     color:#FFF;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5px;
     letter-spacing: 0.64px;
     background-color: #4D5AE5;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
 .main-title-button:hover {
@@ -81,14 +84,13 @@ ul {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2px;
     letter-spacing: 0.4px;
 }
 .principles-section .principles-content {
     color:#434455;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .team-section{
@@ -99,7 +101,7 @@ ul {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11111;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -108,29 +110,27 @@ ul {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 .team-ocupation {
     color: #434455;
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .portfolio-item-name {
     color:#2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.4px;   
 }
 .portfolio-item-type {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 .footer-section {
@@ -142,7 +142,7 @@ ul {
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.16667;
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
@@ -152,7 +152,6 @@ ul {
 .footer-text {
     color:#F4F4FD;
         font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
